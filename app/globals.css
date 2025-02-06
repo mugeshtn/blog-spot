@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.text_gradient {
+    @apply bg-gradient-to-r from-[#8338ec] to-[#ff006e] text-transparent bg-clip-text overflow-visible;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.heading_text{
+    @apply text-[#b5179e] font-bold font-pacifico mb-4
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.input_style{
+    @apply w-full p-2 px-5 mb-3 outline-none rounded-3xl;
+}
+
+.btn_style{
+    @apply bg-white px-5 py-[6px] border-2 border-[#b5179d] rounded-3xl m-4 text-xs font-bold font-pacifico text-[#b73aaf] shadow-xl
+}
+
+.btn_style:hover{
+    @apply bg-[#b5179d] text-white shadow-none
 }
