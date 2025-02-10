@@ -1,7 +1,6 @@
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
-
+@tailwind components;
 
 .text_gradient {
     @apply bg-gradient-to-r from-[#8338ec] to-[#ff006e] text-transparent bg-clip-text overflow-visible;
@@ -19,6 +18,9 @@
 
 .btn_style{
     @apply bg-white px-5 py-[6px] border-2 border-[#b5179d] rounded-3xl m-4 text-xs font-bold font-pacifico text-[#b73aaf] shadow-xl
+}
+.btn_post{
+    @apply bg-white px-5 py-[6px] border-2 border-[#b5179d] rounded-3xl text-xs font-bold font-pacifico text-[#b73aaf] shadow-xl
 }
 
 .btn_style:hover{

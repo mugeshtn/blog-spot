@@ -1,0 +1,45 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "The Future of AI",
+        "description": "Exploring how AI is transforming industries and daily life.",
+        "image": "/images/ai-future.jpg",
+        "likes": 120,
+        "tags": ["AI", "Technology", "Future"]
+      },
+      {
+        "id": 2,
+        "title": "Mastering JavaScript",
+        "description": "A guide to becoming proficient in JavaScript for modern development.",
+        "image": "/images/js-guide.jpg",
+        "likes": 95,
+        "tags": ["JavaScript", "Web Development", "Coding"]
+      },
+      {
+        "id": 3,
+        "title": "Top 10 Travel Destinations",
+        "description": "A curated list of must-visit places around the world.",
+        "image": "/images/travel.jpg",
+        "likes": 200,
+        "tags": ["Travel", "Adventure", "Places"]
+      },
+      {
+        "id": 4,
+        "title": "Healthy Eating Habits",
+        "description": "Tips and tricks for maintaining a balanced and healthy diet.",
+        "image": "/images/healthy-food.jpg",
+        "likes": 80,
+        "tags": ["Health", "Food", "Lifestyle"]
+      },
+      {
+        "id": 5,
+        "title": "The Rise of Cryptocurrencies",
+        "description": "Understanding the impact and future of Bitcoin and blockchain technology.",
+        "image": "/images/crypto.jpg",
+        "likes": 150,
+        "tags": ["Crypto", "Finance", "Blockchain"]
+      }
+    ]
+  }
+  
