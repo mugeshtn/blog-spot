@@ -11,6 +11,4 @@ A modern **Next.js** and **MongoDB-powered** blogging platform where users can *
 ## 🛠 Tech Stack  
 - **Frontend:** Next.js (TypeScript), Tailwind CSS  
 - **Backend:** Next.js API Routes, MongoDB  
-- **Database:** MongoDB with Mongoose ORM  
-- **Authentication:** NextAuth.js / Firebase Auth (optional)  
-
+- **Database:** MongoDB with Mongoose ORM
